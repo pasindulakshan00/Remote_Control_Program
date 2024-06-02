@@ -1,0 +1,67 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>Welcome Admin</title>
+    </head>
+
+    <body>
+        <center>
+            <div>
+                <form action=""
+                    method="POST">
+                    <h1>
+                        Backdoor v0.0.1
+                    </h1>
+                    <!--username: admin
+                        password: Password12132-->
+                    <input type="text"
+                        placeholder="Username"
+                        name="user"><br>
+                    <input type="password"
+                        placeholder="Password"
+                        name="pass"><br>
+                    <button>Login</button>
+                </form>
+            </div>
+        </center>
+
+    </body>
+
+</html>
+
+<style>
+    form {
+        padding-top: 200px;
+        width: 50%;
+        height: 25%;
+    }
+
+
+    input {
+        margin-bottom: 5px;
+        width: 200px;
+        height: 25px;
+    }
+</style>
+
+
+
+<script type="text/javascript">
+    document.addEventListener( 'contextmenu', event => event.preventDefault() );
+</script>
+
+<script type="text/javascript">
+    document.addEventListener( 'keydown', function ( event )
+    {
+        if ( event.key == "F12" ||
+            ( event.ctrlKey && event.shiftKey && event.key == "I" ) ||
+            ( event.ctrlKey && event.shiftKey && event.key == "J" ) ||
+            ( event.ctrlKey && event.key == "U" ) )
+        {
+            event.preventDefault();
+        }
+    } );
+</script>
